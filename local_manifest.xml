@@ -16,7 +16,7 @@
 
  <!-- DerpFest specific markw source trees -->
  <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="rianza" revision="derpfest-13" clone-depth="1" />
- <project path="vendor/xiaomi/markw" name="proprietary_vendor_xiaomi" remote="SonicBSV" revision="T" clone-depth="1" />
+ <project path="vendor/xiaomi/markw" name="vendor_xiaomi_markw" remote="rianza" revision="T" clone-depth="1" />
  <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw_new" remote="SonicBSV" revision="T" clone-depth="1" />
 
  <!-- Clang toolchain -->
