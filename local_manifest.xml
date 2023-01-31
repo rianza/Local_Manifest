@@ -2,7 +2,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  <!--Remote-->
- <remote name="Mozzaru" fetch="https://github.com/Mozzaru" />
+ <remote name="rianza" fetch="https://github.com/rianza" />
  <remote name="clang" fetch="https://gitlab.com/Amritorock" />
  <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
  <remote name="Evolution-X" fetch="https://github.com/Evolution-X" />
@@ -12,9 +12,9 @@
  <remote name="NRanjan-17" fetch="https://github.com/NRanjan-17" />
 
  <!--Trees-->
- <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="Mozzaru" revision="evolution-13" />
- <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="Mozzaru" revision="thirteen" />
- <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw_new" remote="Mozzaru" revision="thirteen" />
+ <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="rianza" revision="evolution-13" />
+ <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="rianza" revision="thirteen" />
+ <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw_new" remote="rianza" revision="thirteen" />
 
  <!--packages_modules_Bluetooth-->
  <remove-project name="packages_modules_Bluetooth" />
