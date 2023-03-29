@@ -10,9 +10,9 @@
 
  <project path="device/xiaomi/markw" name="rianza/android_device_xiaomi_markw" remote="ban" revision="cherishOS" />
 
- <project path="vendor/xiaomi" name="rianza/proprietary_vendor_xiaomi" remote="ban" revision="Thirteen" />
+ <project path="vendor/xiaomi" name="rianza/proprietary_vendor_xiaomi" remote="ban" revision="thirteen" />
 
- <project path="kernel/xiaomi/markw" name="rianza/android_kernel_xiaomi_markw_new" remote="ban" revision="Thirteen" />
+ <project path="kernel/xiaomi/markw" name="rianza/android_kernel_xiaomi_markw_new" remote="ban" revision="thirteen" />
 
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="lab" revision="master" />
 </manifest> 
