@@ -1,40 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <manifest>
- 
- <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD"/>
- 
 
- <!-- Device Trees -->
+ <!--Remote-->
+ <remote name="ban" 
+         fetch="https://github.com" />
 
- <project path="device/xiaomi/markw" name="SonicBSV/android_device_xiaomi_markw" remote="github" revision="DerpFest-Q" />
+ <remote name="lab" 
+         fetch="https://gitlab.com" />
 
- <project path="vendor/xiaomi" name="SonicBSV/proprietary_vendor_xiaomi" remote="github" revision="Q-treble" />
+ <project path="device/xiaomi/markw" name="rianza/android_device_xiaomi_markw" remote="ban" revision="cherishOS" />
 
- <project path="kernel/xiaomi/markw" name="SonicBSV/android_kernel_xiaomi_markw_new" remote="github" revision="Nosgoth-treble-oldled" />
+ <project path="vendor/xiaomi" name="rianza/proprietary_vendor_xiaomi" remote="ban" revision="Thirteen" />
 
- 
+ <project path="kernel/xiaomi/markw" name="rianza/android_kernel_xiaomi_markw_new" remote="ban" revision="Thirteen" />
 
-  <!-- (Clang) -->
-
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master"/>
- 
-
- <!-- Remove things for conflicts of lineage on cirrus 
-
-  <remove-project name="build/make" />
-
-  <remove-project name="lineage-sdk" />
-
-  <remove-project name="packages/apps/Settings" />
-
-  <remove-project name="frameworks/base" />
-
-  <remove-project name="system/core" />
-
- -->
-
- 
-
-
-</manifest>
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="lab" revision="master" />
+</manifest> 
