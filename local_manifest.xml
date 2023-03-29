@@ -3,16 +3,16 @@
 
  <!--Remote-->
  <remote name="ban" 
-         fetch="https://github.com" />
+         fetch="https://github.com/rianza" />
 
  <remote name="lab" 
-         fetch="https://gitlab.com" />
+         fetch="https://gitlab.com/ImSurajxD" />
 
- <project path="device/xiaomi/markw" name="rianza/android_device_xiaomi_markw" remote="ban" revision="cherishOS" />
+ <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="ban" revision="cherishOS" />
 
- <project path="vendor/xiaomi" name="rianza/proprietary_vendor_xiaomi" remote="ban" revision="thirteen" />
+ <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="ban" revision="thirteen" />
 
- <project path="kernel/xiaomi/markw" name="rianza/android_kernel_xiaomi_markw_new" remote="ban" revision="thirteen" />
+ <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw_new" remote="ban" revision="thirteen" />
 
- <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="ImSurajxD/clang-r450784d" remote="lab" revision="master" />
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="lab" revision="master" />
 </manifest> 
