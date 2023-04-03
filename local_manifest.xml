@@ -1,30 +1,16 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
  <!--Remote-->
- <remote name="rianza" fetch="https://github.com/rianza" />
- <remote name="clang" fetch="https://gitlab.com/Amritorock" />
- <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
- <remote name="Evolution-X" fetch="https://github.com/Evolution-X" />
- <remote name="LineageOS" fetch="https://github.com/LineageOS" />
- <remote name="crdroid" fetch="https://gitlab.com/crdroidandroid" />
- <remote name="gitlab-me" fetch="https://gitlab.com/GhostMaster69-dev" />
- <remote name="NRanjan-17" fetch="https://github.com/NRanjan-17" />
+ <remote name="r" 
+         fetch="https://github.com/rianza" />
 
- <!--Trees-->
- <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="rianza" revision="evolution-13" />
- <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="rianza" revision="thirteen" />
- <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw_new" remote="rianza" revision="thirteen" />
+ <remote name="clang" 
+         fetch="https://gitlab.com/Amritorock" />
 
- <!--packages_modules_Bluetooth-->
- <remove-project name="packages_modules_Bluetooth" />
- <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="NRanjan-17" revision="tiramisu" />
- 
- <!-- Cosmic clang Toolchain -->
- <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" remote="gitlab-me" revision="master" clone-depth="1" />
+ <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="r" revision="Evox" />
+ <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="r" revision="thirteen" />
+ <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw_new" remote="r" revision="thirteen" />
 
- <!-- Proton -->
- <!--<project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />-->
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
- <project path="prebuilts/clang/host/linux-x86/clang-r475365b" name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r475365b" remote="gitlab" revision="13.0" clone-depth="1" />
-</manifest>
+</manifest> 
