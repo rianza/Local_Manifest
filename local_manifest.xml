@@ -8,10 +8,8 @@
  <remote name="clang" 
          fetch="https://gitlab.com/Amritorock" />
 
- <remove-project name="android_device_qcom_sepolicy" revision="twelve-legacy-um" />
- <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="r" revision="thirteen" />
 
- <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="r" revision="cherishOS" />
+ <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="r" revision="Crdroid-13" />
 
  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="r" revision="thirteen" />
 
