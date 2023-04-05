@@ -8,7 +8,7 @@
  <remote name="clang" 
          fetch="https://gitlab.com/Amritorock" />
 
- <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="r" revision="Evox" />
+ <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="r" revision="Evoxx" />
  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="r" revision="thirteen" />
  <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw_new" remote="r" revision="thirteen" />
 
