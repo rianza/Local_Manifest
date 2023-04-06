@@ -10,7 +10,7 @@
 
  <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="r" revision="Evoxx" />
  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="r" revision="thirteen-v2" />
- <project path="kernel/xiaomi/markw" name="kernel" remote="r" revision="normal" />
+ <project path="kernel/xiaomi/markw" name="kernel_xiaomi_markw" remote="r" revision="normal" />
 
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 </manifest> 
