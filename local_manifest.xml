@@ -8,8 +8,8 @@
  <remote name="clang" 
          fetch="https://gitlab.com/Amritorock" />
 
- <project path="device/xiaomi/markw" name="rianza/android_device_xiaomi_markw" remote="r" revision="Evoxx" />
- <project path="vendor/xiaomi" name="rianza/vendor_xiaomi_markw" remote="r" revision="tigabelas-fm-default" />
+ <project path="device/xiaomi/markw" name="rianza/android_device_xiaomi_markw" remote="r" revision="bootlegs" />
+ <project path="vendor/xiaomi" name="rianza/vendor_xiaomi_markw" remote="r" revision="tilubelas" />
  <project path="kernel/xiaomi/markw" name="rianza/kernel_xiaomi_markw" remote="r" revision="normal" />
 
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
