@@ -10,7 +10,7 @@
 
  <project path="device/xiaomi/markw" name="rianza/android_device_xiaomi_markw" remote="r" revision="bootlegs" />
  <project path="vendor/xiaomi" name="rianza/vendor_xiaomi_markw" remote="r" revision="tilubelas" />
- <project path="kernel/xiaomi/markw" name="mozzaru/kernel_markw" remote="r" revision="WIP" />
+ <project path="kernel/xiaomi/markw" name="mozzaru/android_kernel_xiaomi_markw_new" remote="r" revision="T" />
 
  <project path="packages/resources/devicesettings" name="rianza/android_packages_resources_devicesettings" remote="r" revision="lineage-20.0" />
 
