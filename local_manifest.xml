@@ -17,7 +17,7 @@
 
  <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="r" revision="cherishOS" />
 
- <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="r" revision="tilubelas-fm-default" />
+ <project path="vendor/xiaomi" name="vendor_xiaomi_markw" remote="r" revision="tilubelas-fm-default" />
 
  <project path="kernel/xiaomi/markw" name="kernel_markw" remote="g" revision="normal" />
 
