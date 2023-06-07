@@ -8,9 +8,9 @@
  <remote name="clang" 
          fetch="https://gitlab.com/Amritorock" />
 
- <project path="device/xiaomi/markw" name="rianza/android_device_xiaomi_markw" remote="r" revision="Evoxx" />
- <project path="vendor/xiaomi" name="rianza/vendor_xiaomi_markw" remote="r" revision="tilubelas-fm-default" />
- <project path="kernel/xiaomi/markw" name="mozzaru/android_kernel_xiaomi_markw_new" remote="r" revision="wip3" />
+ <project path="device/xiaomi/markw" name="rianza/android_device_xiaomi_markw" remote="r" revision="Evo" />
+ <project path="vendor/xiaomi" name="SonicBSV/proprietary_vendor_xiaomi-4.9" remote="r" revision="T" clone-depth="1" />
+ <project path="kernel/xiaomi/markw" name="SonicBSV/android_kernel_xiaomi_markw-4.9" remote="r" revision="T" clone-depth="1" />
 
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 </manifest> 
