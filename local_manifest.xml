@@ -5,21 +5,20 @@
  <remote name="r" 
          fetch="https://github.com/rianza" />
 
- <remote name="g" 
-         fetch="https://github.com/mozzaru" />
-
-
  <remote name="clang" 
          fetch="https://gitlab.com/Amritorock" />
+         
+ <remote name="s" 
+         fetch="https://github.com/SonicBSV" />
 
- <remove-project name="android_device_cherish_sepolicy" />
- <project path="device/cherish/sepolicy" name="android_device_cherish_sepolicy" remote="r" revision="tiramisu" />
+ <!--<remove-project name="android_device_cherish_sepolicy" />
+ <project path="device/cherish/sepolicy" name="android_device_cherish_sepolicy" remote="r" revision="tiramisu" />-->
+ 
+ <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="r" revision="cherish-T" />
 
- <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="r" revision="cherishOS" />
+ <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi-4.9" remote="s" revision="T" />
 
- <project path="vendor/xiaomi" name="vendor_xiaomi_markw" remote="r" revision="tilubelas-fm-default" />
-
- <project path="kernel/xiaomi/markw" name="kernel_markw" remote="g" revision="normal" />
+ <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw-4.9" remote="s" revision="T" />
 
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 </manifest> 
