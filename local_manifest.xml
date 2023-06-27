@@ -8,13 +8,11 @@
  <remote name="lab" 
          fetch="https://gitlab.com" />
 
- <project path="device/xiaomi/markw" name="rianza/android_device_xiaomi_markw" remote="r" revision="bootlegs" />
- <project path="vendor/xiaomi" name="rianza/vendor_xiaomi_markw" remote="r" revision="tilubelas" />
- <project path="kernel/xiaomi/markw" name="mozzaru/android_kernel_xiaomi_markw_new" remote="r" revision="T" />
+ <project path="device/xiaomi/markw" name="rianza/android_device_xiaomi_markw" remote="r" revision="bootleg" />
+ <project path="vendor/xiaomi" name="SonicBSV/proprietary_vendor_xiaomi-4.9" remote="r" revision="T" />
+ <project path="kernel/xiaomi/markw" name="SonicBSV/android_kernel_xiaomi_markw-4.9" remote="r" revision="T" />
 
  <project path="packages/resources/devicesettings" name="rianza/android_packages_resources_devicesettings" remote="r" revision="lineage-20.0" />
 
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="lab" revision="master" clone-depth="1" />
-
- <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" remote="lab" revision="master" clone-depth="1" />
 </manifest> 
