@@ -12,7 +12,7 @@
          fetch="https://github.com/SonicBSV" />
 
 
- <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="r" revision="Cr-test" />
+ <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="r" revision="cr" />
 
  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi-4.9" remote="s" revision="T" />
 
