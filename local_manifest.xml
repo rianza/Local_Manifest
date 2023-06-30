@@ -11,8 +11,8 @@
  <remote name="s" 
          fetch="https://github.com/SonicBSV" />
 
- <!--<remove-project name="android_device_cherish_sepolicy" />
- <project path="device/cherish/sepolicy" name="android_device_cherish_sepolicy" remote="r" revision="tiramisu" />-->
+ <remove-project name="android_device_cherish_sepolicy" />
+ <project path="device/cherish/sepolicy" name="android_device_cherish_sepolicy" remote="r" revision="tiramisu" />
  
  <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="r" revision="cherish-T" />
 
