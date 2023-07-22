@@ -10,6 +10,9 @@
          
  <remote name="ice" 
          fetch="https://gitlab.com" />
+         
+ <remote name="fire" 
+         fetch="https://github.com" />
  
  <remote name="kdrag0n"
          fetch="https://github.com/kdrag0n" />
@@ -18,10 +21,13 @@
          fetch="https://github.com/SonicBSV" />
          
  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="m" revision="arrow-13.1" />
- <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="r" revision="yaap" />
+ <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="r" revision="yaap-13" />
  <project path="vendor/xiaomi" name="vendor_xiaomi_markw" remote="r" revision="Tigabelas" />
  <project path="kernel/xiaomi/markw" name="kernel_markw" remote="m" revision="normal" />
-
+ 
+ <!-- External -->
+ <project path="external/Camera" name="GrapheneOS/platform_external_Camera" remote="fire" revision="13" />
+ 
  <!--<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />-->
  <project path="prebuilts/clang/host/linux-x86/clang-r498229" name="Neebe3289/android_prebuilts_clang_host_linux-x86" remote="ice" revision="clang-r498229" clone-depth="1" />
  <!--<project path="prebuilts/clang/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" remote="ice" revision="master" clone-depth="1" />-->
