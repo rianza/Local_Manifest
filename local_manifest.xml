@@ -23,7 +23,7 @@
  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="m" revision="arrow-13.1" />
  <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="r" revision="yaap-13" />
  <project path="vendor/xiaomi" name="vendor_xiaomi_markw" remote="r" revision="Tigabelas" />
- <project path="kernel/xiaomi/markw" name="kernel_markw" remote="m" revision="normal" />
+ <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw_new" remote="m" revision="Darkmoon" />
  
  <!-- External -->
  <project path="external/Camera" name="GrapheneOS/platform_external_Camera" remote="fire" revision="13" />
