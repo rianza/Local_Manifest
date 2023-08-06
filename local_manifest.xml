@@ -8,15 +8,23 @@
  <remote name="clang" 
          fetch="https://gitlab.com/Amritorock" />
          
+ <remote name="ice" 
+         fetch="https://gitlab.com" />
+         
  <remote name="s" 
-         fetch="https://github.com/SonicBSV" />
+         fetch="https://github.com" />
          
 
- <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="r" revision="evol" />
+ <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="r" revision="pixelos" />
 
- <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi-4.9" remote="s" revision="T" />
+ <project path="vendor/xiaomi" name="SonicBSV/proprietary_vendor_xiaomi-4.9" remote="s" revision="T" />
 
- <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw-4.9" remote="s" revision="T" />
+ <project path="kernel/xiaomi/markw" name="mozzaru/android_kernel_xiaomi_markw_new" remote="s" revision="test_darkmoon" />
 
- <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
+ <!--<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />-->
+ 
+  <!-- External -->
+ <project path="external/Camera" name="GrapheneOS/platform_external_Camera" remote="s" revision="13" />
+ 
+ <project path="prebuilts/clang/host/linux-x86/clang-r498229" name="Neebe3289/android_prebuilts_clang_host_linux-x86" remote="ice" revision="clang-r498229" clone-depth="1" />
 </manifest> 
