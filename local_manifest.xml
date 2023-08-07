@@ -24,7 +24,7 @@
  <!--<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />-->
  
   <!-- External -->
- <project path="external/Camera" name="GrapheneOS/platform_external_Camera" remote="s" revision="13" />
+ <!--<project path="external/Camera" name="GrapheneOS/platform_external_Camera" remote="s" revision="13" />-->
  
  <project path="prebuilts/clang/host/linux-x86/clang-r498229" name="Neebe3289/android_prebuilts_clang_host_linux-x86" remote="ice" revision="clang-r498229" clone-depth="1" />
 </manifest> 
