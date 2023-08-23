@@ -15,11 +15,11 @@
          fetch="https://github.com" />
          
 
- <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="r" revision="pixelos" />
+ <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="r" revision="pixel-13" />
 
  <project path="vendor/xiaomi" name="SonicBSV/proprietary_vendor_xiaomi-4.9" remote="s" revision="T" />
 
- <project path="kernel/xiaomi/markw" name="mozzaru/android_kernel_xiaomi_markw_new" remote="s" revision="test_darkmoon" />
+ <project path="kernel/xiaomi/markw" name="mozzaru/kernel_markw" remote="s" revision="13" />
 
  <!--<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />-->
  
