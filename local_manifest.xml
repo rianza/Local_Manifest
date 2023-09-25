@@ -25,7 +25,7 @@
  
  <project path="vendor/xiaomi" name="vendor_xiaomi_markw" remote="r" revision="13t" />
  
- <project path="kernel/xiaomi/markw" name="kernel_markw" remote="m" revision="13" />
+ <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw_new" remote="m" revision="13-wip" />
 
  <!--<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />-->
  
