@@ -19,6 +19,9 @@
          
  <remote name="m"
          fetch="https://github.com/mozzaru" />
+ 
+ <remote name="me-lab"
+            fetch="https://gitlab.com/anandhan07/" />
          
          
  <project path="device/xiaomi/markw" name="android_device_xiaomi_markw" remote="r" revision="pixell-13" />
@@ -38,5 +41,8 @@
  <project path="packages/apps/RevampedFMRadio" name="RevampedFMRadio" remote="iusmac" revision="qcom" />
    
  <!-- Cosmic clang -->
- <project path="prebuilts/clang/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" remote="ice" revision="master" clone-depth="1" />
+ <!--<project path="prebuilts/clang/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" remote="ice" revision="master" clone-depth="1" />-->
+ 
+ <!-- Clang-Aosp -->
+ <project path="prebuilts/clang/host/linux-x86/clang-aosp" name="aosp-clang" remote="me-lab" revision="17" clone-depth="1" />
 </manifest> 
