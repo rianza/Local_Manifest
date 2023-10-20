@@ -9,7 +9,7 @@
          fetch="https://gitlab.com" />
          
          
- <project path="device/xiaomi/markw" name="rianza/android_device_xiaomi_markw" remote="r" revision="havoc-13" />
+ <project path="device/xiaomi/markw" name="rianza/android_device_xiaomi_markw" remote="r" revision="havoc-t" />
  
  <project path="vendor/xiaomi" name="rianza/vendor_xiaomi_markw" remote="r" revision="13t" />
  
