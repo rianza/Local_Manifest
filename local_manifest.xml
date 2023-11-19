@@ -9,9 +9,9 @@
          fetch="https://gitlab.com" />
          
          
- <project path="device/xiaomi/markw" name="rianza/android_device_xiaomi_markw" remote="r" revision="spark-13-new" />
+ <project path="device/xiaomi/markw" name="rianza/android_device_xiaomi_markw" remote="r" revision="octavi-13-new" />
  
- <project path="vendor/xiaomi" name="rianza/vendor_xiaomi_markw" remote="r" revision="13t-new" />
+ <project path="vendor/xiaomi" name="rianza/vendor_xiaomi_markw" remote="r" revision="13t-new-new" />
  
  <project path="kernel/xiaomi/markw" name="mozzaru/kernel_port" remote="r" revision="normal" />
 
