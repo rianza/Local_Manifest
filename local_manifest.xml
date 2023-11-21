@@ -13,7 +13,7 @@
  
  <project path="vendor/xiaomi" name="rianza/vendor_xiaomi_markw" remote="r" revision="13t-new-new" />
  
- <project path="kernel/xiaomi/markw" name="mozzaru/kernel_port" remote="r" revision="normal" />
+ <project path="kernel/xiaomi/markw" name="mozzaru/android_kernel_xiaomi_markw_new" remote="r" revision="master" />
 
  <!-- Packages -->
  <!--<project path="packages/apps/RevampedFMRadio" name="iusmac/RevampedFMRadio" remote="r" revision="qcom" />-->
