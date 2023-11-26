@@ -1,40 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <manifest>
+
+ <!--Remote-->
+ <remote name="r" 
+         fetch="https://github.com/rianza" />
+         
+ <remote name="m" 
+         fetch="https://github.com/mozzaru" />
+         
+ <remote name="ice" 
+         fetch="https://gitlab.com" />
+                   
+ <project path="device/xiaomi/markw" 
+ name="android_device_xiaomi_markw" remote="r" revision="alpha-13-new" />
  
- <remote name="ImSurajxD" fetch="https://gitlab.com/ImSurajxD"/>
+ <project path="vendor/xiaomi" 
+ name="vendor_xiaomi_markw" remote="r" revision="lineage-20.0-new" />
  
+ <project path="kernel/xiaomi/markw" 
+ name="android_kernel_xiaomi_markw_new" remote="m" revision="master" />
 
- <!-- Device Trees -->
-
- <project path="device/xiaomi/markw" name="SonicBSV/android_device_xiaomi_markw" remote="github" revision="DerpFest-Q" />
-
- <project path="vendor/xiaomi" name="SonicBSV/proprietary_vendor_xiaomi" remote="github" revision="Q-treble" />
-
- <project path="kernel/xiaomi/markw" name="SonicBSV/android_kernel_xiaomi_markw_new" remote="github" revision="Nosgoth-treble-oldled" />
-
+ <!-- Packages -->
+ <!--<project path="packages/apps/RevampedFMRadio" name="iusmac/RevampedFMRadio" remote="r" revision="qcom" />-->
  
-
-  <!-- (Clang) -->
-
-  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master"/>
+ <!-- Cosmic clang -->
+ <!--<project path="prebuilts/clang/clang-cosmic" name="GhostMaster69-dev/cosmic-clang" remote="ice" revision="master" clone-depth="1" />-->
  
-
- <!-- Remove things for conflicts of lineage on cirrus 
-
-  <remove-project name="build/make" />
-
-  <remove-project name="lineage-sdk" />
-
-  <remove-project name="packages/apps/Settings" />
-
-  <remove-project name="frameworks/base" />
-
-  <remove-project name="system/core" />
-
- -->
-
+ <!--<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="Amritorock/clang-r450784d" remote="ice" revision="master" clone-depth="1" />-->
  
-
-
-</manifest>
+</manifest> 
