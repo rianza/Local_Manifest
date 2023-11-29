@@ -18,7 +18,7 @@
  name="vendor_xiaomi_markw" remote="r" revision="lineage-20.0-new" />
  
  <project path="kernel/xiaomi/markw" 
- name="android_kernel_xiaomi_markw_new" remote="m" revision="master" />
+ name="android_kernel_xiaomi_markw_new" remote="m" revision="therteen-darkmoon" />
 
  <!-- Packages -->
  <!--<project path="packages/apps/RevampedFMRadio" name="iusmac/RevampedFMRadio" remote="r" revision="qcom" />-->
